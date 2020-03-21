@@ -1,0 +1,4 @@
+14:07:04.812 [http-nio-8089-exec-10] ERROR m.w.noteblogv4.web.BaseController - 添加分类信息 出现异常，异常信息：Validation failed for classes [me.wuwenbin.noteblogv4.model.entity.NBCate] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='不能为空', propertyPath=cnName, rootBeanClass=class me.wuwenbin.noteblogv4.model.entity.NBCate, messageTemplate='{javax.validation.constraints.NotEmpty.message}'}
+] 
